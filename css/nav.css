@@ -1,0 +1,39 @@
+#nav {
+    position: fixed;
+    min-height: 75px;
+    width: 100%;
+    background: #6FA9CC;
+    opacity: .95;
+    top: 0px;
+	z-index: 999;
+}
+
+#nav_row {
+    width: 75%;
+    height: 100%;
+	margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo {
+    float: left;
+	width: 45%;
+}
+
+#nav_list {
+    float: right;
+    margin-top: 30px;
+}
+
+
+
+#nav_list li {
+    display: inline;
+	margin-left: 15px;
+}
+
+.nav_item {
+    font-size: 22px;
+}
+

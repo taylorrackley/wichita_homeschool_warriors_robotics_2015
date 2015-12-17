@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../css/main.css" type="text/css" />
+    </head>
+    
+    <body>
+        
+        <section id="nav">
+            <div id="nav_row">
+                <a href="../index.html"><img id="logo" src="../img/logo.png" /></a>
+                <ul id="nav_list">
+                    <li><a class="nav_item" href="../game/index.html">Game</a></li>
+                    <li><a class="nav_item"  href="../team/index.html">Team</a></li>
+                    <li><a class="nav_item" href="../sponsors/index.html">Sponsors</a></li>
+                    <li><a class="nav_item" style="padding-bottom: 5px;border-bottom: 2px solid #45697F;" href="">Contact</a></li>
+                </ul>
+            </div>
+        </section>
+        
+        <section id="contact">
+				<form id="email_form" action="../script/email.php" method="post">
+                    <div id="email_left">
+                        <p class="email_text">Name</p>
+				        <input class="email_input" type="text" name="name" size="20" maxlength="50"/> 
+                        
+                        <p class="email_text">Email</p>
+					    <input class="email_input" type="text" name="email" size="20" maxlength="50"/>
+                        
+                       	<p class="email_text">Subject</p>
+					    <input class="email_input" type="text" name="subject" size="20" maxlength="50"/>
+                    </div>
+                    <div id="email_middle">
+                        <p class="email_text">Message</p>
+					    <textarea id="email_message" type="text" rows="6" name="message" size="20" maxlength="1000">Have any comments, questions, or concerns?</textarea>
+                    </div>
+                    <div id="email_right">
+                        <div id="email_sm_container">
+                            <p id="email_sm_text">Visit our social media pages for updated info about our team!</p>
+                            <div id="email_sm">
+                                <div id="email_sm_left">
+                                    <a href="https://www.facebook.com/whwrbest"><img class="footer_social_media_img" src="../img/social_media/fb.png"></a>
+                                </div>
+                                <div id="email_sm_center">
+                                    <a href="https://twitter.com/whwrbest"><img class="footer_social_media_img" src="../img/social_media/tw.png"></a>
+                                </div>
+                                <div id="email_sm_right">
+                                    <a href="https://instagram.com/whwrbest"><img class="footer_social_media_img" src="../img/social_media/in.png"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="test2"><input id="email_submit" type="submit" name="submit" value="Send"/></div>
+                    </div>                    
+                </form>
+        </section>
+        
+        <section id="copyright">
+			<p id="copyright_text"><a style="color: #999999;" href="http://kansasbest.org">Kansas Best</a><p>
+			<p id="copyright_text"><a style="color: #999999;" href="http://www.bestinc.org/">BEST Organization</a></p>
+			<ul id="footer_social_media">
+				<li class="media_social_media_item"><a href="https://www.facebook.com/whwrbest"><img class="footer_social_media_img" src="../img/social_media/fb.png"></a></li>
+				<li class="media_social_media_item"><a href="https://twitter.com/whwrbest"><img class="footer_social_media_img" src="../img/social_media/tw.png"></a></li>
+				<li class="media_social_media_item"><a href="https://instagram.com/whwrbest"><img class="footer_social_media_img" src="../img/social_media/in.png"></a></li>
+			</ul>
+			<p id="copyright_text" style="font-size: 12px; margin-top: 50px;">Copyright &copy WHWR 2015</p>
+        </section>
+    </body>
+</html>

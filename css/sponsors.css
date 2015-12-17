@@ -1,0 +1,43 @@
+#sponsors {
+	width: 100%;
+    min-height: 400px;
+	overflow: auto;
+    background: #f9f9f9;
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+
+#sponsor_wrapper {
+	width: 75%;
+	margin-right: auto;
+    margin-left: auto;
+}
+
+.sponsor_logos {
+	width: 28%;
+	min-height: 800px;
+    text-align: justify;
+    font-size: 20px;
+    float: left;
+    margin: 3%;
+}
+
+#sponsor_logos_first {
+    margin-left: 2%;
+}
+
+#sponsor_logos_last {
+    margin-right: 2%;
+}
+
+#sponsors_ty {
+	text-align: center;
+	font-size: 22px;
+	margin-bottom: 100px;
+	margin-top: 100px;
+}
+
+.sponsor_logo {
+	width: 100%;
+	margin-bottom: 50px;
+}
